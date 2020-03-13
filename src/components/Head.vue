@@ -1,11 +1,14 @@
 <template>
-    <div>头部</div>
+  <div class="workspace-top">toubuxinxi</div>
 </template>
 <script>
-export default {
-    
-}
+export default {};
 </script>
 <style scoped>
+.headerbar{
+  width:100%;
+  padding-right: 23px;
+  padding-left: 22px;
 
+}
 </style>

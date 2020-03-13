@@ -7,15 +7,12 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import financeaxios from './financeaxios';
 import api from './api';
-import GlobalComponent from './GlobalComponent';
 // import common from './common.js';
 //import mock from './mock.js';
-
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
 Vue.use(api);
 Vue.use(financeaxios);
-Vue.use(GlobalComponent);
 // Vue.use(common);
 //Vue.use(mock);
 new Vue({

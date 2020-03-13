@@ -7,7 +7,10 @@ financeaxios.install=function(Vue){
 		return
 	}
 	var instance = axios.create({
-        baseURL:'http://localhost',
+		baseURL:"http://192.168.0.110:8765/",
+		// baseURL:"http://192.168.0.108:8762/",
+		// baseURL:"http://192.168.0.110:8765/",
+        // baseURL:'http://localhost',
         //baseURL:'', //发布的
 		withCredentials:true,
 		headers:{'Content-Type':'application/x-www-form-urlencoded','X-Requested-With': 'XMLHttpRequest'},
@@ -46,7 +49,6 @@ financeaxios.install=function(Vue){
 	    			//系统用户登录定向
 	    			location.href = '/';
 	    		}
-	    		
 	    	})
 	    }
 	    return response;

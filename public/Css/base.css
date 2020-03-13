@@ -1,0 +1,28 @@
+*{padding: 0; margin:0;font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;}
+html,body,#app{height: 100%;min-width: 1280px;background-color: #f2f2f2;}
+.el-header {color: #333;text-align: center;line-height: 48px; height: 50px!important; padding: 0!important;}
+.el-aside {text-align: left;overflow: hidden!important;}
+.el-main {background-color: #f2f2f2;padding: 0!important;}
+.fa{margin-right: 6px;}
+/*main left*/
+.logo{ height: 60px; width: 100%;line-height: 60px;font-size: 16px; color: #fff; text-align: center;}
+.el-menu-item-group li.is-active{background-color: #009688!important;}
+/*buttons plus*/
+.el-button.el-button--light-primary{color: #fff; background-color: #2db7f5; border-color: #23B5F7;}
+.el-button.el-button--light-primary:hover{color: #fff; background-color: #41C0F9; border-color: #23B5F7;}
+.el-button.el-button--light-success{color: #fff; background-color: #01DC8C; border-color: #01DC8C;}
+.el-button.el-button--light-success:hover{color: #fff; background-color: #1EEBA0; border-color: #1EEBA0;}
+.el-button.el-button--light-warning{color: #fff; background-color: #F87D55; border-color: #F87D55;}
+.el-button.el-button--light-warning:hover{color: #fff; background-color: #F99270; border-color: #F99270;}
+.el-button.el-button--light-info{color: #fff; background-color: #E464F5; border-color: #E464F5;}
+.el-button.el-button--light-info:hover{color: #fff; background-color: #E978F8; border-color: #E978F8;}
+/*select*/
+.el-select-dropdown__list{padding-bottom: 22px!important;}
+.wrapperNew {
+    background-color: #f4f4f4;
+    position: absolute;
+    top: 16px;
+    bottom: 16px;
+    left: 16px;
+    right: 16px;
+}
