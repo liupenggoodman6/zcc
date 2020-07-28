@@ -1,4 +1,4 @@
-var api={};
+66666666666666var api={};
 api.install = function (Vue) {
 	if (api.installed) {
 		return;
